@@ -9862,7 +9862,7 @@ std::string item::get_book_skill() const
 
 bool item::is_map() const
 {
-    if((get_category_shallow().get_id() == item_category_maps) || (get_action() == "reveal_map")) {
+    if( ( get_category_shallow().get_id() == item_category_maps ) || ( get_action() == "reveal_map" ) ) {
         return true;
     } else {
         return false;
